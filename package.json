@@ -1,6 +1,6 @@
 {
   "name": "babel-plugin-object-assign",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Babel plugin to replace Object.assign with the extends helper",
   "author": "Jed Watson",
   "license": "MIT",
