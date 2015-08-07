@@ -13,7 +13,7 @@ Instead of using `_.extend(obj1, obj2...)` or `xtend(obj1, obj2...)` just use `O
 Install:
 
 ```
-$ npm install babel babel-core babel-plugin-object-assign
+$ npm install babel babel-core babel-plugin-object-assign --save
 ```
 
 _Note:_ you need to specify `babel-core` as a dependency for your project (not just `babel`). This is also true if you are using a wrapper like `babelify`.
@@ -32,6 +32,10 @@ require("babel").transform("code", { plugins: ["object-assign"] });
 ```
 
 with `browserify` / `babelify`:
+
+```
+$ npm install babelify babel-core babel-plugin-object-assign --save
+```
 
 ```js
 var b = browserify({
